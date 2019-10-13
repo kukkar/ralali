@@ -1,0 +1,33 @@
+{  
+   "AppName":"apitest",
+   "AppVersion":"1.0.0",
+   "ServerPort":"8080",
+   "LogConfFile":"conf/logger.json",
+   "Profiler":{
+    "Enable":true
+   },
+   "MonitorConfig":{ 
+     "Platform":"NewRelic",
+     "Enabled":true,
+     "Debugging":false,
+     "NewRelicConfig":{
+      "AppId":"testnewrelicapp",
+      "APIKey":"0d30543680f0ed2a26549047d58609443d4bc9bd"
+     },
+     "DataDogConfig":{
+      "APIKey":"",
+      "APPKey":"",
+      "AgentServer":""
+     } 
+   },
+   "Performance":{  
+      "UseCorePercentage":100,
+      "GCPercentage":1000
+   },
+   "ApplicationConfig":{
+     "TestConfig":{
+       "Alpha" : 1,
+       "Beta"  : 2
+     }
+  }
+}

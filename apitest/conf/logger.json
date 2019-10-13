@@ -1,0 +1,15 @@
+{
+    "ProfilerEnabled": true,
+    "LogLevel": 2,
+    "DefaultLogType": "fileLoggerDefault",
+    "AppName" : "apitest-",
+    "Write2Console" : true,
+    "FileLogger": [
+        {
+            "Key": "fileLoggerDefault",
+            "Path": "/var/log/apitest/",
+            "FormatType" : "json",
+            "FileNamePrefix": "api-"       
+        }       
+    ]
+}
